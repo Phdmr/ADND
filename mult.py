@@ -79,7 +79,7 @@ def main(argv):
         with open(idf) as f:
             content2 = f.read().splitlines()    
         for i in tqdm(range(len(content2))):
-            x = content[i]+'.',retm
+            x = content[i]+'.'+retm
             y = content2[i]
             downl(x, y, dbf, rett, retm)
         print("COMPLETE")
@@ -92,7 +92,7 @@ def main(argv):
         usage()
         sys.exit(2)
     elif nm != '' and ida != '' and nf == '' and idf == '':
-        x = nm+'.',retm
+        x = nm+'.'+retm
         y = ida
         downl(x, y, dbf, rett, retm)
         
