@@ -23,7 +23,7 @@ def downl(x, y, c, d, e):
         net_handle.close()
 
 def usage():
-    print("THIS IS A TEST TO GET THE OPTION ON THE MAI PROGRAM")
+    print("These are the options avaliable for the program")
     print("        -h prints the instructions ")
     print("        -d Type the desired database (in this test we use the nucleotide)")
     print('        -i the acessing number of the file')
